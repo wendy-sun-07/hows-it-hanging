@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: #fbfbfb;
+  min-height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: left;
+  justify-content: center;
+  width: 60vw;
+  font-size: calc(10px + 2vmin);
+  color: #b0adb8;
+  padding-top: 20vh;
+  padding-left: 100px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+p {
+  font-size: 22px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}
+
+.box-button {
+  height: 80px;
+  width: 300px;
+  border: 2px solid #b0adb8;
+  margin-top: 30px;
+  background-color: transparent;
+  font-family: 'Share Tech Mono', monospace;
+  color: #b0adb8;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.App-link {
+  color: #61dafb;
+}
