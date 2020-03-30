@@ -13,13 +13,25 @@
   width: 60vw;
   font-size: calc(10px + 2vmin);
   color: #b0adb8;
-  padding-top: 20vh;
-  padding-left: 100px;
+  padding-top: 15vh;
+  padding-left: 5vh;
   font-family: 'Share Tech Mono', monospace;
 }
 
 p {
-  font-size: 22px;
+  font-size: calc(10px + 1vmin);
+}
+
+footer {
+  font-size: calc(10px + 0.3vmin);
+  font-family: 'Share Tech Mono', monospace;
+  color: #b0adb8;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
 }
 
 .hidden {
@@ -36,7 +48,7 @@ p {
   background-color: transparent;
   font-family: 'Share Tech Mono', monospace;
   color: #b0adb8;
-  font-size: 22px;
+  font-size: calc(10px + 1vmin);
   cursor: pointer;
 }
 
