@@ -8,9 +8,6 @@ function App() {
     'What has been on your mind lately?',
     'What song reminds you of summertime?',
     'What do you like to watch in rainy weather?',
-    'What expectations of normal have you let go?',
-    'What beauty in the world has always amazed you?',
-    'What is a memory about nature that you love?'
   ]
 
   const [fade, setFade] = useState(false);
@@ -37,7 +34,7 @@ function App() {
     <div className="App">
       {fade ?
         <header className="App-header">
-          <h2>{shuffledArray[index]}</h2>
+          <h2>{questions[index]}</h2>
           <button className='box-button'
                   onClick={() => setIndex(index + 1 > questions.length - 1 ? 0 : index + 1)}>
           Next
@@ -58,8 +55,6 @@ function App() {
       Let's get connected
     </button>
     </header>}
-
-    <footer>Made with love by Wendy Sun</footer>
     </div>
   );
 }
