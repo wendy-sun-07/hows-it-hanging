@@ -13,7 +13,7 @@
   width: 60vw;
   font-size: calc(10px + 2vmin);
   color: #b0adb8;
-  padding-top: 15vh;
+  padding-top: calc(50px + 8vh);
   padding-left: 5vh;
   font-family: 'Share Tech Mono', monospace;
 }
